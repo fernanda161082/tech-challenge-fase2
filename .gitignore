@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+data/bronze/
+data/silver/
+data/gold/
+*.parquet
+.env
+teste.py
