@@ -50,7 +50,15 @@ ETAPAS = [
         "src/quality/validacao_qualidade.py",
         "Validacao de qualidade dos dados",
     ),
+    (
+        "gold",
+        "src/gold/datasets_gold.py",
+        "Construcao dos datasets analiticos",
+    ),
+    
+    
 ]
+    
 
 
 def executar_etapa(nome: str, caminho: str, descricao: str) -> dict:
@@ -181,3 +189,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+    
+  
